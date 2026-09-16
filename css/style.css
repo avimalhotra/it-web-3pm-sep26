@@ -15,6 +15,7 @@ html{
      --gray:#92989F;
      --yellow: #FFC107;
      --graystar:#7D7D7D;
+     --shadow: #0000001a;
 }
 
 body{
@@ -38,6 +39,7 @@ body{
 .col-6{ grid-column: span 6;}
 .img-resp{ max-width: 100%; height: auto; }
 .text-center{ text-align: center;}
+.op6{ opacity: 0.6;}
 
 
 /* custom */
@@ -60,7 +62,50 @@ body{
 }
 
 
-.wrap-2{padding: 6rem 0 82px}
+.wrap-2{padding: 6rem 0 82px;
+     h2{ color: var(--blue); font-size: 20px; font-weight: 500; margin-bottom: 1rem; }
+     .cap{ font-size: 28px; font-weight: 700; margin-bottom: 4rem;}
+
+     .services{
+          section{
+               box-shadow: 0 0 13px var(--shadow);
+               border-radius: 5px;
+               padding: 45px 60px 40px 30px;
+               h3{font-size: 20px; font-weight: 600;}
+               p{ font-size: 14px; margin: 2rem 0 3rem; }
+               a{ display: inline-block; color: inherit; font-size: 14px; }
+          }
+     }
+
+     .info{
+          margin: 10rem 0;
+          text-align: center;
+          b{ font-size: 24px; font-weight: 600}
+          small{ font-size: 14px; font-weight: 500;}
+     }
+
+     .about{
+          .op6{ line-height: 25px; font-size: 14px; margin-bottom: 3rem; }
+          ul{ list-style: disc inside; padding-left: 4rem;}
+     }
+
+
+     .testimonials{
+          margin: 10rem 0;
+          text-align: center;
+          .shadow{
+               padding: 60px 64px 0;
+               box-shadow: 0 0 18px var(--shadow);
+               .ratings{
+                    span{ color: var(--graystar);}
+                    .fill{ color: var(--yellow);}
+               }
+               img{ transform: translateY(34px);}
+          }
+          h3{ margin-top: 54px; }
+     }
+
+}
 
 
 .wrap-3{ background: var(--blue); color: #fff; padding: 6rem 0;}
@@ -77,6 +122,13 @@ body{
      .col-t-6{ grid-column: span 6;}
      .col-t-12{ grid-column: span 12;}
      .wrap-1 header nav ul{ gap: 1rem;  }
+     .wrap-2{
+           .testimonials{
+          .shadow{
+               padding: 30px 34px 0;
+          }
+     }   
+     } 
 }    
 
 @media screen and (max-width:767px){
