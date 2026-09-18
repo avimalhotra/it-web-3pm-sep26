@@ -3,9 +3,17 @@
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
      <title>IT Website</title> 
+     <meta name="description" content="IT Website project">
+
+     <link rel="icon" href="favicon.ico" type="image/x-icon">
+     <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
      <link rel="stylesheet" href="css/style.css">
      <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
      <div class="wrap-1">
@@ -13,6 +21,7 @@
                <header>
                     <div class="flex align-center jusify-sb">
                          <h1><a href="">IT Website</a></h1>
+                         <button class="menu"><span class="fa fa-bars"></span></button>
                          <nav>
                               <ul class="flex">
                                    <li><a href="">Home</a></li>
@@ -27,17 +36,52 @@
                     </div>
                </header>
                <div class="banner">
-                    <div class="row align-center">
-                         <div class="col-6 col-t-12">
-                              <div class="service-text">
-                                   <p class="lg">Software solution providers that help brands thrive and stand out</p>
-                                   <p>Since 2014, we have been exploring the world of design and development offering our expertise in web and mobile. It is perfect fusion of innovation, development and execution at one place.</p>
-                                   <a href="">EXPLORE MORE</a>
+                    <div class="swiper">
+                         <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                   <div class="row align-center">
+                                        <div class="col-6 col-t-12">
+                                             <div class="service-text">
+                                                  <p class="lg">1 Software solution providers that help brands thrive and stand out</p>
+                                                  <p>Since 2014, we have been exploring the world of design and development offering our expertise in web and mobile. It is perfect fusion of innovation, development and execution at one place.</p>
+                                                  <a href="">EXPLORE MORE</a>
+                                             </div>
+                                        </div>
+                                        <div class="col-6 col-t-12 col-t-ob">
+                                             <img srcset="img/service-2x.webp 1.25x" src="img/service.webp" alt="Services" width="535" height="499" class="img-resp">
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="swiper-slide">
+                                   <div class="row align-center">
+                                        <div class="col-6 col-t-12">
+                                             <div class="service-text">
+                                                  <p class="lg">2 Software solution providers that help brands thrive and stand out</p>
+                                                  <p>Since 2014, we have been exploring the world of design and development offering our expertise in web and mobile. It is perfect fusion of innovation, development and execution at one place.</p>
+                                                  <a href="">EXPLORE MORE</a>
+                                             </div>
+                                        </div>
+                                        <div class="col-6 col-t-12 col-t-ob">
+                                             <img srcset="img/service-2x.webp 1.25x" src="img/service.webp" alt="Services" width="535" height="499" class="img-resp">
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="swiper-slide">
+                                   <div class="row align-center">
+                                        <div class="col-6 col-t-12">
+                                             <div class="service-text">
+                                                  <p class="lg">3 Software solution providers that help brands thrive and stand out</p>
+                                                  <p>Since 2014, we have been exploring the world of design and development offering our expertise in web and mobile. It is perfect fusion of innovation, development and execution at one place.</p>
+                                                  <a href="">EXPLORE MORE</a>
+                                             </div>
+                                        </div>
+                                        <div class="col-6 col-t-12 col-t-ob">
+                                             <img srcset="img/service-2x.webp 1.25x" src="img/service.webp" alt="Services" width="535" height="499" class="img-resp">
+                                        </div>
+                                   </div>
                               </div>
                          </div>
-                         <div class="col-6 col-t-12 col-t-ob">
-                              <img srcset="img/service-2x.webp 1.25x" src="img/service.webp" alt="Services" width="535" height="499" class="img-resp">
-                         </div>
+                          <div class="swiper-pagination"></div>
                     </div>
                </div>
           </div>
@@ -46,33 +90,33 @@
           <div class="container">
                <article class="services">
                     <div class="text-center">
-                         <h2>SERVICES</h2>
+                         <h2 data-aos="fade-up">SERVICES</h2>
                          <p class="cap">We provide All-in-one Solution for every IT job</p>
                     </div>
                     <div class="row">
                          <div class="col-3 col-t-6 col-p-12">
-                              <section>
+                              <section data-aos="fade-right">
                                    <h3>Software Development</h3>
                                    <p class="op6">Posuere morbi leo urna molestie at elementum eu egestas.</p>
                                    <a href="">Learn more ></a>
                               </section>
                          </div>
                          <div class="col-3 col-t-6 col-p-12">
-                              <section>
+                              <section data-aos="fade-down">
                                    <h3>Software Development</h3>
                                    <p class="op6">Posuere morbi leo urna molestie at elementum eu egestas.</p>
                                    <a href="">Learn more ></a>
                               </section>
                          </div>
                          <div class="col-3 col-t-6 col-p-12">
-                              <section>
+                              <section data-aos="fade-up">
                                    <h3>Software Development</h3>
                                    <p class="op6">Posuere morbi leo urna molestie at elementum eu egestas.</p>
                                    <a href="">Learn more ></a>
                               </section>
                          </div>
                          <div class="col-3 col-t-6 col-p-12">
-                              <section>
+                              <section data-aos="fade-left">
                                    <h3>Software Development</h3>
                                    <p class="op6">Posuere morbi leo urna molestie at elementum eu egestas.</p>
                                    <a href="">Learn more ></a>
@@ -84,19 +128,19 @@
                <div class="info">
                     <div class="row">
                          <div class="col-3 col-t-6 col-p-12">
-                              <p><b>782</b></p>
+                              <p><b data-purecounter-start="700" data-purecounter-end="782" class="purecounter">782</b></p>
                               <p><small>WORLDWIDE CUSTOMERS</small></p>
                          </div>
                          <div class="col-3 col-t-6 col-p-12">
-                              <p><b>782</b></p>
+                              <p><b data-purecounter-start="1000" data-purecounter-end="1782" class="purecounter">1782</b></p>
                               <p><small>WORLDWIDE CUSTOMERS</small></p>
                          </div>
                          <div class="col-3 col-t-6 col-p-12">
-                              <p><b>782</b></p>
+                              <p><b data-purecounter-start="0" data-purecounter-end="82" class="purecounter">82</b></p>
                               <p><small>WORLDWIDE CUSTOMERS</small></p>
                          </div>
                          <div class="col-3 col-t-6 col-p-12">
-                              <p><b>782</b></p>
+                              <p><b data-purecounter-start="0" data-purecounter-end="12" class="purecounter">12</b></p>
                               <p><small>WORLDWIDE CUSTOMERS</small></p>
                          </div>
                     </div>
@@ -105,7 +149,7 @@
                <section class="about">
                     <div class="row">
                          <div class="col-6 col-t-12">
-                              <h2>FEW WORDS ABOUT US</h2>
+                              <h2 data-aos="fade-up">FEW WORDS ABOUT US</h2>
                               <p class="cap">We Are Leaders in It <br>Solutions</p>
                               <p class="op6">Aliquam a diam gravida, pretium justo non, facilisis eros. Integer posuere semper condimentum. Praesent tortor dui, auctor a condimentum vitae, aliquam at quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consequat lacus a sapien pretium, sit amet finibus ex.</p>
 
@@ -132,13 +176,13 @@
 
                <section class="work">
                     <div class="text-center">
-                         <h2>WE LOVE OUR WORK</h2>
+                         <h2 data-aos="fade-up">WE LOVE OUR WORK</h2>
                          <div class="cap">FIND OUT MORE</div>
                     </div>
                     <div class="tabs">
                          <ul class="flex gap2">
                               <li class="flex gap2">
-                                   <a href="" class="vert">Our Mission</a>
+                                   <a href="" class="vert active">Our Mission</a>
                                    <div class="collapse">
                                         <div class="flex gap2">
                                              <div class="work-img">
@@ -188,7 +232,7 @@
 
                <article class="testimonials">
                     <div class="text-center">
-                         <h2>TESTIMONIALS</h2>
+                         <h2 data-aos="fade-up">TESTIMONIALS</h2>
                          <p class="cap">Our successful clients</p>
                     </div>
                     <div class="row">
@@ -356,5 +400,37 @@
                </div>
           </div>
      </footer>
+<script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+<script>
+     AOS.init();
+     new PureCounter();
+$(function(){
+     $(".menu").click(function(){
+          $("nav").slideToggle();
+     });
+
+     $(".work a.vert").click(function(e){
+          e.preventDefault();
+
+          $(".work a.vert").removeClass("active");
+          $(this).addClass("active");
+
+          $(".work .collapse").hide();
+          $(this).next(".collapse").fadeIn();
+
+     });
+
+
+     const swiper = new Swiper('.swiper', {
+          autoplay: { delay: 5000,},
+          pagination: { el: '.swiper-pagination',},
+     });
+
+   
+});
+</script>
 </body>
 </html>

@@ -53,6 +53,7 @@ body{
           nav{
                ul{ gap: 3rem; }
           }
+          .menu{ display: none; font-size: 20px;}
      }
 
      .banner{
@@ -60,6 +61,8 @@ body{
           .lg{ font-size: 28px; font-weight: 700;}
           .lg+p{ line-height: 1.7; margin: 3rem 0 4rem;}
           a{ display: inline-block; width: 185px; line-height: 50px; background: var(--white); text-align: center; color: var(--black); font-weight: 600; border-radius: 5px;}
+          .swiper .swiper-pagination-bullet{ background-color: #aaa !important; }
+          .swiper .swiper-pagination-bullet-active{ background-color: #fff !important; }
      }
 }
 
@@ -118,6 +121,10 @@ body{
                     border-color: var(--blue);
                }
           }
+          a.vert.active{
+               border-color: var(--blue);
+          }
+          
      }
 
 
@@ -227,7 +234,9 @@ body{
      .col-m-4{ grid-column: span 4;}
      .col-m-6{ grid-column: span 6;}
      .col-m-12{ grid-column: span 12;}
-     nav{ display: none; }
+     nav{ display: none; position: absolute; left: 1rem; right: 1rem; top: 110px; background: #132577cc; text-align: right; }
+     nav ul{ flex-flow: column; }
+     .wrap-1 header .menu{ display: inline-block;}
 }
 
 @media screen and (max-width:460px){
