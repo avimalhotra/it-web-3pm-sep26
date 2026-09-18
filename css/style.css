@@ -234,7 +234,7 @@ body{
      .col-m-4{ grid-column: span 4;}
      .col-m-6{ grid-column: span 6;}
      .col-m-12{ grid-column: span 12;}
-     nav{ display: none; position: absolute; left: 1rem; right: 1rem; top: 110px; background: #132577cc; text-align: right; }
+     nav{ display: none; position: absolute; left: 1rem; right: 1rem; top: 110px; background: #132577cc; text-align: right; z-index: 2; }
      nav ul{ flex-flow: column; }
      .wrap-1 header .menu{ display: inline-block;}
 }
